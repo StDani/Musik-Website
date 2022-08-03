@@ -14,6 +14,11 @@ hr {
     animation-duration: 2s;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+}
+
 @keyframes widen {
     from{width: 0%;}
     to{width: 100%;}
