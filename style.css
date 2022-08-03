@@ -24,11 +24,14 @@ img:hover {
     animation-name: sizeup;
     animation-duration: 0.5s;
     cursor: pointer;
+    width: 220px;
+    height: 220px;
 }
 
 img:click {
     animation-name: rotateimg;
     animation-duration: 1s;
+    transform: rotate(360deg);
 }
 
 #rick {
