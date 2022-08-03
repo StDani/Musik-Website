@@ -20,6 +20,16 @@ img {
     border-radius: 10px;
 }
 
+#rick {
+    -webkit-filter: blur(30px);
+    filter: blur(30px);
+}
+
+#backmario {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 @keyframes widen {
     from{width: 0%;}
     to{width: 100%;}
