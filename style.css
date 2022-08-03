@@ -11,13 +11,15 @@ html {
 
 hr {
     animation-name: widen;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    animation-name: sizeup;
+    animation-duration: 0.5s;
 }
 
 #rick {
@@ -33,4 +35,9 @@ img {
 @keyframes widen {
     from{width: 0%;}
     to{width: 100%;}
+}
+
+@keyframes sizeup {
+    from{width: 200px;height: 200px;}
+    to {width: 215px;height: 215px;}
 }
