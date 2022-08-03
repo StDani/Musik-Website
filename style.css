@@ -6,5 +6,15 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    text-align: center;           
+    text-align: center;
+}
+
+hr {
+    animation-name: widen;
+    animation-duration: 0.5s;
+}
+
+@keyframes widen {
+    from{width: 0%;}
+    to{width: 100%;}
 }
