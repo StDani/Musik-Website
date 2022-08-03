@@ -9,6 +9,10 @@ html {
     text-align: center;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    display: inline
+}
+
 hr {
     animation-name: widen;
     animation-duration: 1.5s;
@@ -21,16 +25,7 @@ img {
 }
 
 img:hover {
-    animation-name: sizeup;
-    animation-duration: 0.5s;
     cursor: pointer;
-    transform: scale(1.3);
-}
-
-img:click {
-    animation-name: rotateimg;
-    animation-duration: 1s;
-    transform: rotate(360deg);
 }
 
 #rick {
@@ -43,17 +38,12 @@ img:click {
     transform: scaleX(-1);
 }
 
+#titel {
+    background-color: rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+}
+
 @keyframes widen {
     from{width: 0%;}
     to{width: 100%;}
-}
-
-@keyframes sizeup {
-    from{transform: scale(1);}
-    to {transform: scale(1.3);}
-}
-
-@keyframes rotateimg {
-    from{transform: rotate(0deg);}
-    to{transform: rotate(360deg);}
 }
