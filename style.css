@@ -1,0 +1,10 @@
+html {
+    color: rgb(255, 255, 255);
+    background-image: url(https://przemec.github.io/Novum/assets/images/app.png);
+    font-family: Bahnschrift;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;           
+}
