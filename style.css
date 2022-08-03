@@ -18,8 +18,17 @@ img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+}
+
+img:hover {
     animation-name: sizeup;
     animation-duration: 0.5s;
+    cursor: pointer;
+}
+
+img:click {
+    animation-name: rotateimg;
+    animation-duration: 1s;
 }
 
 #rick {
@@ -39,5 +48,10 @@ img {
 
 @keyframes sizeup {
     from{width: 200px;height: 200px;}
-    to {width: 215px;height: 215px;}
+    to {width: 220px;height: 220px;}
+}
+
+@keyframes rotateimg {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
